@@ -2,7 +2,7 @@
 
 body{
     text-align: center;
-    background-image: url("img3.jpg");
+    background-image: url("/assets/bg-img.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Roboto',sans-serif;
