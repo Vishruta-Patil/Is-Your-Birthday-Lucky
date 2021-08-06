@@ -21,11 +21,11 @@ function isYourBirthdayLucky() {
     var sumofBirthDate = calculateSum();
 
     if (sumofBirthDate % luckyNumber.value === 0) {
-        result.innerText = "Woah!!! Your Birthday is lucky 🥳🥳🥳"
+        result.innerText = "Woah!!! Your Birthday is lucky \n 🥳🥳🥳"
     }
 
     else {
-        result.innerText = "Well, Make Your Self Lucky By Your Own Karma 😀😉😊";
+        result.innerText = "Well, Make Your Self Lucky By Your Own Karma!!! \n 😀😉😊";
     }
 }
 

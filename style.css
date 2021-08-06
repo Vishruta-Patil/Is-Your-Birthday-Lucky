@@ -1,18 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Kaushan+Script&display=swap");
+
 body{
     text-align: center;
+    background-image: url("img3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto',sans-serif;
+}
+
+.container {
+    width:40%;
+    padding:20px;
+    color: goldenrod;
+    border-radius: 20px;;
+    background-color: #00214B;
+    box-shadow: 5px 10px 18px 10px goldenrod;
+    margin: 60px auto;
+
+    /* margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%); */
+
+    /* margin: 40px 0;
+    margin-bottom: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
+}
+
+.header {
+    font-size: 50px;
+    font-family: "Kaushan Script", cursive;
+    margin-top: 0;
+}
+
+.sub-header {
+    font-size: 35px;
+}
+
+p{
+    font-size: 27px;
 }
 
 label,input {
     width:30%;
     margin: 20px auto;
     display: block;
+    
 }
 
 label{
-    font-size: 18px;
+    font-size: 20px;
 }
 
 input {
-    padding: 10px 20px;
+    padding: 10px 30px;
     border-radius: 15px;
+    font-size: 15px;
+}
+
+button {
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: goldenrod;
+    color:white;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: white;
+    color: goldenrod;
+    font-weight: bolder;
+}
+
+.alert-msg {
+    padding: 10px;
+    /* border: 2px solid goldenrod; */
+    color:white;
+    font-size: 18px;
+    width:50%;
+    margin: auto;
+    box-shadow: 2px 2px 9px 5px goldenrod;
+}
+
+.alert-msg span {
+    color: goldenrod;
+    font-weight: bolder;
+}
+
+.result {
+    margin-top: 15px;
+    font-size: 25px;
+    font-weight: bolder;
 }
