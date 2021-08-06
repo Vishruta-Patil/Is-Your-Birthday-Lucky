@@ -1,0 +1,18 @@
+body{
+    text-align: center;
+}
+
+label,input {
+    width:30%;
+    margin: 20px auto;
+    display: block;
+}
+
+label{
+    font-size: 18px;
+}
+
+input {
+    padding: 10px 20px;
+    border-radius: 15px;
+}
