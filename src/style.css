@@ -16,20 +16,16 @@ body{
     background-color: #00214B;
     box-shadow: 5px 10px 18px 10px goldenrod;
     margin: 60px auto;
+    min-height: 200px;
+    max-width: 1200px;
+    padding: 20px;
+}
 
-    /* margin: 0;
-    position: absolute;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%); */
-
-    /* margin: 40px 0;
-    margin-bottom: 40px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%); */
+@media only screen and (max-width: 1000px) {
+    .container{
+        padding: 20px 70px;
+        width:50%;
+    } 
 }
 
 .header {
@@ -41,6 +37,8 @@ body{
 .sub-header {
     font-size: 35px;
 }
+
+
 
 p{
     font-size: 27px;
@@ -61,6 +59,16 @@ input {
     padding: 10px 30px;
     border-radius: 15px;
     font-size: 15px;
+}
+
+@media only screen and (max-width: 700px) {
+    .header {
+        font-size: 39px;
+    }
+
+    .sub-header{
+        font-size: 25px;
+    }  
 }
 
 button {
@@ -96,4 +104,28 @@ button:hover {
     margin-top: 15px;
     font-size: 25px;
     font-weight: bolder;
+}
+
+@media only screen and (max-width: 515px) {
+    p{
+        font-size: 22px;
+    }
+    .header {
+        font-size: 29px;
+    }
+    input {
+        font-size: 18px;
+        width: 80%;
+    }
+    .alert-msg {
+        padding: 10px 49px;
+    } 
+    label{
+        width:100%;
+    }
+    .container{
+        width:50%;
+        padding: 15px 65px;
+        margin-top:19px;
+    }
 }
