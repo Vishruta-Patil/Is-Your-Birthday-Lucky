@@ -38,8 +38,6 @@ body{
     font-size: 35px;
 }
 
-
-
 p{
     font-size: 27px;
 }
@@ -47,8 +45,7 @@ p{
 label,input {
     width:30%;
     margin: 20px auto;
-    display: block;
-    
+    display: block; 
 }
 
 label{
@@ -114,7 +111,7 @@ button:hover {
         font-size: 29px;
     }
     input {
-        font-size: 18px;
+        font-size: 14px;
         width: 80%;
     }
     .alert-msg {
@@ -128,4 +125,8 @@ button:hover {
         padding: 15px 65px;
         margin-top:19px;
     }
+    .result{
+        font-size: 18px;
+    }
 }
+
